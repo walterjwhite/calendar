@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.walterjwhite.modules</groupId>
+		<artifactId>calendar</artifactId>
+		<version>0.0.15-SNAPSHOT</version>
+	</parent>
+
+	<groupId>com.walterjwhite.modules.calendar</groupId>
+	<artifactId>modules</artifactId>
+	<packaging>pom</packaging>
+	<name>calendar - modules</name>
+	<description>
+		calendar modules
+	</description>
+
+	<modules>
+		<module>exchange</module>
+	</modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.walterjwhite.modules.calendar.api</groupId>
+			<artifactId>service</artifactId>
+			<version>0.0.15-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.walterjwhite.modules.calendar</groupId>
+			<artifactId>impl</artifactId>
+			<version>0.0.15-SNAPSHOT</version>
+			<scope>runtime</scope>
+		</dependency>
+	</dependencies>
+</project>
