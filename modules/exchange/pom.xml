@@ -1,57 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>com.walterjwhite.modules.calendar</groupId>
-		<artifactId>modules</artifactId>
-		<version>0.0.15-SNAPSHOT</version>
-	</parent>
-
-	<groupId>com.walterjwhite.modules.calendar.modules</groupId>
-	<artifactId>exchange</artifactId>
-	<packaging>jar</packaging>
-	<name>calendar - modules - exchange</name>
-	<description>
-		calendar modules - exchange
-	</description>
-
-	<dependencies>
-		<dependency>
-			<groupId>com.walterjwhite.infrastructure.dependencies</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>0.0.15-SNAPSHOT</version>
-			<type>pom</type>
-		</dependency>
-
-		<dependency>
-			<groupId>com.walterjwhite.modules</groupId>
-			<artifactId>exchange</artifactId>
-			<version>0.0.15-SNAPSHOT</version>
-		</dependency>
-
-
-		<!--<dependency>-->
-			<!--<groupId>com.walterjwhite.infrastructure.google-guice.modules</groupId>-->
-			<!--<artifactId>elasticsearch</artifactId>-->
-			<!--<version>0.0.15-SNAPSHOT</version>-->
-		<!--</dependency>-->
-
-		<dependency>
-			<groupId>com.walterjwhite.modules.encryption.api</groupId>
-			<artifactId>service</artifactId>
-			<version>0.0.15-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.walterjwhite.modules.encryption</groupId>
-			<artifactId>impl</artifactId>
-			<version>0.0.15-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.walterjwhite.modules.file.api</groupId>
-			<artifactId>service</artifactId>
-			<version>0.0.15-SNAPSHOT</version>
-		</dependency>
-	</dependencies>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.walterjwhite.java.modules.calendar</groupId>
+    <artifactId>modules</artifactId>
+    <version>0.0.15-SNAPSHOT</version>
+  </parent>
+  <groupId>com.walterjwhite.java.modules.calendar.modules</groupId>
+  <artifactId>exchange</artifactId>
+  <packaging>jar</packaging>
+  <name>calendar - modules - exchange</name>
+  <description>calendar modules - exchange</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.walterjwhite.java.dependencies</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>0.0.15-SNAPSHOT</version>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>com.walterjwhite.java.modules</groupId>
+      <artifactId>exchange</artifactId>
+      <version>0.0.15-SNAPSHOT</version>
+    </dependency>
+    <!--<dependency>-->
+    <!--<groupId>com.walterjwhite.java.infrastructure.google-guice.modules</groupId>-->
+    <!--<artifactId>elasticsearch</artifactId>-->
+    <!--<version>0.0.15-SNAPSHOT</version>-->
+    <!--</dependency>-->
+    <dependency>
+      <groupId>com.walterjwhite.java.modules.encryption</groupId>
+      <artifactId>api</artifactId>
+      <version>0.0.15-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.walterjwhite.java.modules.encryption</groupId>
+      <artifactId>impl</artifactId>
+      <version>0.0.15-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.walterjwhite.java.modules.file.api</groupId>
+      <artifactId>service</artifactId>
+      <version>0.0.15-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
 </project>

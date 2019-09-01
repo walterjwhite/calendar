@@ -1,0 +1,5 @@
+group = 'com.walterjwhite.modules.calendar.api'
+description = 'calendar - API - model'
+dependencies {
+  compile project(':infrastructure:datastore:api:model')
+}
